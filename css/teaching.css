@@ -1,0 +1,79 @@
+/* ********************* */
+/* TEACHING SECTION */
+/* ********************* */
+
+.section-teaching {
+    background-color: #fff4e6;
+  }
+   
+  .home {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 10rem;
+    width: 100%;
+    margin: 0 auto 4rem auto;
+  }
+  
+  .studio-box {
+    box-shadow: 3px 0 0.7rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+    
+    flex: 1;
+  }
+  
+  .subheading {
+    font-size: 3rem;
+    font-variant: small-caps;
+    padding-top: 3.2rem;
+    color: #333;
+    font-weight: 700;
+    line-height: 2;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.75px;
+  }
+  
+  .teaching {
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .experience {
+    line-height: 1;
+  }
+  
+  ul {
+    font-size: 1.8rem;
+    list-style: none;
+    line-height: 1.8;
+  }
+  
+  .teaching-list {
+    margin-bottom: 1.8rem;
+  }
+  
+  .studio-box ul {
+    padding: 3rem 7rem;
+  }
+  
+  .studio-img {
+    display: block;
+    width: 80%;
+    margin: 4rem auto 0 auto;
+  }
+  
+  .icon {
+    color: #ff922b;
+    padding-right: 1.5rem;
+    font-weight: 700;
+    font-size: 2.6rem;
+    transform: translateY(30%);
+    margin-left: -5rem;
+    width: 3.5rem;
+  }
+  
+  .icon-teaching {
+    margin-left: 0;
+  }

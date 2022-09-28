@@ -1,0 +1,45 @@
+/* BELOW 1344px (small desktops)*/
+
+@media (max-width: 84em) {
+  .container {
+    max-width: 110rem;
+  }
+  .btn-left {
+    transform: translate(158%, 110%);
+  }
+  .btn-right {
+    transform: translate(-152%, 110%);
+  }
+
+  h1 {
+    font-size: 8rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .page-header {
+    padding: 0 6.6rem;
+  }
+}
+
+@media (max-width: 75em) {
+  .container {
+    max-width: 90rem;
+  }
+  h1 {
+    font-size: 7.2rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .hero-photo {
+    width: 36rem;
+  }
+  .page-header__logo-text {
+    font-size: 1.6rem;
+  }
+  .main-nav-list {
+    font-size: 1.6rem;
+    gap: 4rem;
+  }
+}

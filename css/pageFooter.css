@@ -1,0 +1,34 @@
+.footer-background {
+  background-color: #c9fe80;
+}
+
+.page-footer {
+  display: flex;
+  gap: 18rem;
+  padding: 2.4rem 4rem 2.4rem;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  color: #555;
+}
+
+.page-footer__contact-me {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.page-footer__link:link,
+.page-footer__link:visited {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s;
+}
+
+.page-footer__link:hover,
+.page-footer__link:active {
+  color: #fd7e14;
+}
+
+.page-footer__copyright {
+  font-size: 1.6rem;
+}
