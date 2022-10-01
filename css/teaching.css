@@ -15,7 +15,7 @@
     margin: 0 auto 4rem auto;
   }
   
-  .studio-box {
+  .card {
     box-shadow: 3px 0 0.7rem rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
     overflow: hidden;
@@ -23,7 +23,7 @@
     flex: 1;
   }
   
-  .subheading {
+  .card h3 {
     font-size: 3rem;
     font-variant: small-caps;
     padding-top: 3.2rem;
@@ -50,15 +50,15 @@
     line-height: 1.8;
   }
   
-  .teaching-list {
+  .card li {
     margin-bottom: 1.8rem;
   }
   
-  .studio-box ul {
+  .card ul {
     padding: 3rem 7rem;
   }
   
-  .studio-img {
+  .card img {
     display: block;
     width: 80%;
     margin: 4rem auto 0 auto;
