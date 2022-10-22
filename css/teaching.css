@@ -1,7 +1,3 @@
-/* ********************* */
-/* TEACHING SECTION */
-/* ********************* */
-
 .section-teaching {
     background-color: #fff4e6;
   }
@@ -52,6 +48,12 @@
   
   .card li {
     margin-bottom: 1.8rem;
+    padding-left: 4rem;
+    background-image: url('../checkmark-outline.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 2.6rem;
+
   }
   
   .card ul {
@@ -63,17 +65,23 @@
     width: 80%;
     margin: 4rem auto 0 auto;
   }
+
+
   
-  .icon {
-    color: #ff922b;
+  .teaching-icons {
     padding-right: 1.5rem;
-    font-weight: 700;
-    font-size: 2.6rem;
-    transform: translateY(30%);
-    margin-left: -5rem;
-    width: 3.5rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    transform: translateY(26%);
   }
   
   .icon-teaching {
     margin-left: 0;
+  }
+
+  .teaching-experience {
+    font-size: 1.8rem;
+  }
+ h4 :last-child {
+    margin-bottom: 4rem;
   }
