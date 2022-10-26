@@ -73,9 +73,9 @@
   /* TESTIMONIALS SECTION */
   /* ********************* */
   
-  #testimonials {
+  /* #testimonials {
     position: relative;
-  }
+  } */
   
   .carousel-container {
     width: 90rem;
@@ -85,14 +85,14 @@
     border: 1px solid #ff922b;
   }
   
-  .carousel-slide {
+  /* .carousel-slide {
     display: flex;
-  }
+  } */
   
   .testimonial-box {
     /* box-sizing: content-box; */
     background-color: #fff4e6;
-    width: 90rem;
+    max-width: 130rem;
     padding: 4rem;
   
     display: flex;
@@ -101,6 +101,9 @@
     color: #333;
   
     flex-shrink: 0;
+
+    border-radius: 1rem;
+    border: 1px solid #ff922b;
   }
   
   .author-box {
