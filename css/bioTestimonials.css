@@ -27,6 +27,7 @@
     color: #fd7e14;
     display: block;
     letter-spacing: 0.75px;
+    margin-bottom: 1.5rem;
   }
   
   .education {
@@ -63,10 +64,16 @@
     font-size: 2rem;
     font-weight: 700;
   }
-  .list-at-a-glance {
-    list-style: inside;
-    list-style: none;
+dt {
+  float: left;
+  margin-right: 1.5rem;
+}
+
+  dd {
+    font-size: 1.8rem;
+    line-height: 1.5;
     color: #333;
+    margin-bottom: 2rem;
   }
   
   /* ********************* */
@@ -143,38 +150,6 @@
     line-height: 1.5;
   }
   
-  .btn-testimonial {
-    background-color: #fff;
-    color: #ff922b;
-    border-radius: 50%;
-    border: 1px solid #ff922b;
-    box-shadow: 0 3 3 rgba(0, 0, 0, 0.9);
-    height: 5rem;
-    width: 5rem;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 10;
-  }
-  .btn-testimonial-icon {
-    font-size: 2.6rem;
-    border-radius: 50%;
-  }
-  
-  .btn-right {
-    right: 0;
-    transform: translate(-350%, 110%);
-    top: 50%;
-  }
-  
-  .btn-left {
-    left: 0;
-    transform: translate(350%, 110%);
-    top: 50%;
-  }
-  
-  .transform-animation {
+   .transform-animation {
     transition: all 0.4s ease-in-out;
   }
