@@ -1,39 +1,4 @@
 "use strict";
-
-// CAROUSEL
-
-// window.addEventListener("DOMContentLoaded", () => {
-//   const rightBtnEl = document.querySelector(".btn-right");
-//   const leftBtnEl = document.querySelector(".btn-left");
-
-//   const slider = document.querySelector(".carousel-slide");
-//   const testimonialBoxEl = document.querySelectorAll(".testimonial-box");
-
-//   let counter = 0;
-//   const stepSize = testimonialBoxEl[0].clientWidth;
-//   console.log(stepSize);
-
-//   slider.style.transform = "translateX(" + `${-stepSize * counter}px)`;
-
-//   rightBtnEl.addEventListener("click", () => {
-//     counter >= testimonialBoxEl.length - 1 ? (counter = -1) : null;
-
-//     slider.classList.add("transform-animation");
-//     counter++;
-
-//     slider.style.transform = "translateX(" + `${-stepSize * counter}px)`;
-//   });
-
-//   leftBtnEl.addEventListener("click", () => {
-//     counter <= 0 ? (counter = testimonialBoxEl.length) : null;
-
-//     slider.classList.add("transform-animation");
-//     counter--;
-
-//     slider.style.transform = "translateX(" + `${-stepSize * counter}px)`;
-//   });
-// });
-
 //MODAL WINDOW
 
 let body = document.querySelector("body");
