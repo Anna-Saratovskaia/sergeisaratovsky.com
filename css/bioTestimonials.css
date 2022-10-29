@@ -95,12 +95,13 @@ dd {
   margin-bottom: 2rem;
 }
 
-.testimonial-box:nth-child(odd) {
+.testimonial-box:nth-of-type(odd) {
   background-color: #fff4e6;
   box-shadow: 3px 0 0.7rem rgba(0, 0, 0, 0.1);
 }
 
-.testimonial-box:nth-child(even) {
+.testimonial-box:nth-of-type(even) {
+  background-color: #c9fe8031;
   box-shadow: 3px 0 0.7rem rgba(0, 0, 0, 0.1);
 }
 

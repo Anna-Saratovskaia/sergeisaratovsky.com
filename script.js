@@ -46,3 +46,4 @@ for (let i = 0; i < closeModalBtns.length; i++) {
   });
 }
 
+console.log(body);
