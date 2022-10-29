@@ -1,41 +1,37 @@
-/****************/
-/* HERO SECTION */
-/***************/
-
-.hero-section {
+.hero {
   display: flex;
   align-items: space-between;
   justify-content: space-between;
   padding: 2rem 0 6rem;
 }
 
-.hero-section__photo {
+.hero__photo {
   width: 45rem;
   transition: all 0.6s;
 }
 
-.hero-section__left {
+.hero__left {
   overflow: hidden;
 }
 
-.hero-section__photo:hover {
+.hero__photo:hover {
   transform: scale(1.05);
 }
 
-.hero-section__right {
+.hero__right {
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
 }
 
-.heading-text  {
+.hero__right--heading-text {
   margin-bottom: 3.2rem;
   text-align: right;
   font-size: 4.8rem;
   line-height: 1.6;
 }
 
-.aristotle-quote {
+.hero__right--quote {
   display: block;
   margin-bottom: 2.4rem;
   font-size: 2.4rem;
@@ -50,4 +46,3 @@
   display: block;
   font-size: 2.2rem;
 }
-
