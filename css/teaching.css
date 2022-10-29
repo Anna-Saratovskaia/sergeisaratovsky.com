@@ -1,86 +1,61 @@
 .section-teaching {
-    background-color: #fff4e6;
-  }
-   
-  .home {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-    margin-bottom: 10rem;
-    width: 100%;
-    margin: 0 auto 4rem auto;
-  }
-  
-  .card {
-    box-shadow: 3px 0 0.7rem rgba(0, 0, 0, 0.1);
-    border-radius: 1rem;
-    overflow: hidden;
-    
-    flex: 1;
-  }
-  
-  .card h3 {
-    font-size: 3rem;
-    font-variant: small-caps;
-    padding-top: 3.2rem;
-    color: #333;
-    font-weight: 700;
-    line-height: 2;
-    display: block;
-    text-align: center;
-    letter-spacing: 0.75px;
-  }
-  
-  .teaching {
-    margin-bottom: 2rem;
-    color: #333;
-  }
-  
-  .experience {
-    line-height: 1;
-  }
-  
-  ul {
-    font-size: 1.8rem;
-    list-style: none;
-    line-height: 1.5;
-  }
-  
-  .card li {
-    margin-bottom: 1.8rem;
-    padding-left: 4rem;
-    background-image: url('../checkmark-outline.svg');
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: 2.6rem;
+  background-color: #fff4e6;
+}
 
-  }
-  
-  .card ul {
-    padding: 3rem 2rem 3rem 1rem;
-  }
-  
-  .card img {
-    display: block;
-    width: 100%;
-  }
+.home {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 10rem;
+  width: 100%;
+  margin: 0 auto 4rem auto;
+}
 
+.card {
+  box-shadow: 3px 0 0.7rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  overflow: hidden;
 
-  
-  .teaching-icons {
-    padding-right: 1.5rem;
-    width: 4.2rem;
-    height: 4.2rem;
-    transform: translateY(26%);
-  }
-  
-  .icon-teaching {
-    margin-left: 0;
-  }
+  flex: 1;
+}
 
-  .teaching-experience {
-    font-size: 1.8rem;
-  }
- h4 :last-child {
-    margin-bottom: 4rem;
-  }
+.card h3 {
+  font-size: 3rem;
+  font-variant: small-caps;
+  padding-top: 3.2rem;
+  color: #333;
+  font-weight: 700;
+  line-height: 2;
+  display: block;
+  text-align: center;
+  letter-spacing: 0.75px;
+}
+
+.card li {
+  margin-bottom: 1.8rem;
+  padding-left: 4rem;
+  background-image: url("../img/checkmark-outline.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 2.6rem;
+}
+
+.card ul {
+  padding: 3rem 2rem 3rem 1rem;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+}
+
+.teaching-icon {
+  padding-right: 1.5rem;
+  width: 4.2rem;
+  height: 4.2rem;
+  transform: translateY(26%);
+}
+
+.teaching-experience {
+  font-size: 1.8rem;
+}

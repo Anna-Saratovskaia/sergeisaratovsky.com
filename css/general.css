@@ -79,6 +79,12 @@ h4 {
   color: #333;
 }
 
+ul {
+  font-size: 1.8rem;
+  list-style: none;
+  line-height: 1.5;
+}
+
 /* HELPER/SETTING CLASS */
 
 .highlighted-sections {
@@ -109,7 +115,7 @@ h4 {
 .youtube-width {
   max-width: 450px;
   min-width: 100px;
-  margin: 30px 0 30px 0; /*AUTO CENTERS THE VIDEO + TOP/BOTTOM MARGINS */
+  margin: 30px 0 30px 0;
 }
 
 .youtube-container {

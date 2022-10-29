@@ -27,7 +27,7 @@
   color: #ff922b;
   font-family: "ZCOOL KuaiLe", cursive;
   font-weight: 300;
-} */
+}
 
 .header__logo {
   height: 1.5rem;
@@ -75,24 +75,4 @@
   background-color: #d9fea6;
   color: #444;
   font-weight: 700;
-}
-
-/**********************/
-/* STICKY NAVIGATION*/
-/**********************/
-.body--sticky-header .page-header {
-  position: fixed;
-  z-index: 50;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 8rem;
-  padding-top: 0;
-  padding-bottom: 0;
-  background-color: rgba(255, 244, 229, 0.959);
-  box-shadow: 0 1.3rem 3.2rem rgba(0, 0, 0, 0.03);
-}
-
-.body--sticky-header .section-hero {
-  margin-bottom: 9rem;
 }
