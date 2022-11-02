@@ -112,7 +112,7 @@ ul {
 
 /* YOUTUBE LINKS */
 
-.video {
+iframe[src^="https://www.youtube.com/"] {
   max-width: 45rem;
   width: 100%;
   margin-bottom: 1rem;
