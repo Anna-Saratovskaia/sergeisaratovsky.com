@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="ionicon" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <title>Close</title>
+ <path d="m368 368-224-224m224 0-224 224" fill="#ff922b" stroke="#ff922b" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:title>Close</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+</svg>
