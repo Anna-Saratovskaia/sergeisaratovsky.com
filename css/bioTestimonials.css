@@ -47,7 +47,6 @@ aside dt {
 }
 
 aside dd {
-  font-size: 1.8rem;
   line-height: 1.5;
   color: #333;
   margin-bottom: 2rem;
@@ -121,7 +120,6 @@ aside dd {
 
 .testimonial-text {
   max-width: 60rem;
-  font-size: 1.8rem;
   line-height: 1.5;
 }
 

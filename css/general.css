@@ -119,3 +119,8 @@ iframe[src^="https://www.youtube.com/"]
   margin-bottom: 1rem;
   aspect-ratio: 16/9;
 }
+
+iframe[src^="https://www.youtube.com/"]:last-child
+{
+  margin-bottom: 0;
+}
