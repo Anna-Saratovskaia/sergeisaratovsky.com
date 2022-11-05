@@ -72,3 +72,8 @@
   backdrop-filter: blur(3px);
   z-index: 100;
 }
+
+.close-icon {
+  width: 4.2rem;
+  height: 4.2rem;
+}
