@@ -19,7 +19,6 @@
 
 .page-footer__link:link,
 .page-footer__link:visited {
-  text-decoration: none;
   color: #555;
   transition: all 0.3s;
 }
