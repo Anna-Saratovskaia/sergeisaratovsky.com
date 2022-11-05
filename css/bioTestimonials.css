@@ -1,6 +1,7 @@
 .biography-box {
   display: flex;
   gap: 10rem;
+  margin-bottom: 4rem;
 }
 
 .heading-secondary {
@@ -80,6 +81,10 @@ aside dd {
 .testimonial-box:nth-of-type(even) {
   background-color: #c9fe8031;
   box-shadow: 3px 0 0.7rem rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-box:last-child {
+  margin-bottom: 0;
 }
 
 .author-box {
