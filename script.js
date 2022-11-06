@@ -1,31 +1,21 @@
 "use strict";
-//MODAL WINDOW
 
 let body = document.querySelector("body");
-let fullBioText = document.querySelector(".full-bio-container");
-let bioBtn = document.querySelector(".read-more");
-let philosophyBtn = document.querySelector(".teaching-philosophy");
-let fullPhilosophyText = document.querySelector(".full-philosophy-container");
+let fullModalText = document.querySelector(".full-text-container");
+let readMoreBtns = document.querySelectorAll(".read-more");
 let closeModalBtns = document.querySelectorAll(".close-modal");
-console.log(closeModalBtns);
-
 let overlay = document.querySelector(".overlay");
 
-bioBtn.addEventListener("click", function () {
-  fullBioText.classList.remove("hidden");
-  overlay.classList.remove("hidden");
-  body.classList.add("body.modal-open");
-});
-
-philosophyBtn.addEventListener("click", function () {
-  fullPhilosophyText.classList.remove("hidden");
-  overlay.classList.remove("hidden");
-  body.classList.add("body.modal-open");
-});
+for (let i = 0; i < readMoreBtns.length; i++) {
+  readMoreBtns[i].addEventListener("click", function () {
+    fullModalText.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+    body.classList.add("body.modal-open");
+  });
+}
 
 function closeModal() {
-  fullBioText.classList.add("hidden");
-  fullPhilosophyText.classList.add("hidden");
+  fullModalText.classList.add("hidden");
   overlay.classList.add("hidden");
   body.classList.remove("body.modal-open");
 }
@@ -34,16 +24,8 @@ for (let i = 0; i < closeModalBtns.length; i++) {
   closeModalBtns[i].addEventListener("click", closeModal);
   overlay.addEventListener("click", closeModal);
   document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape" && !fullBioText.classList.contains("hidden")) {
-      closeModal();
-    }
-    if (
-      event.key === "Escape" &&
-      !fullPhilosophyText.classList.contains("hidden")
-    ) {
+    if (event.key === "Escape" && !fullModalText.classList.contains("hidden")) {
       closeModal();
     }
   });
 }
-
-console.log(body);
