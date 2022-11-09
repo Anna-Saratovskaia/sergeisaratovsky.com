@@ -57,7 +57,11 @@
 }
 
 .teaching-experience {
-  padding: 0 0 4rem 3rem;
+  padding: 0 0 3rem 3rem;
   margin-bottom: 4rem;
   border-radius: 1rem;
+}
+
+.teaching-experience h4 {
+  padding-bottom: 1.4rem;
 }
