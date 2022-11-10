@@ -46,7 +46,7 @@ h2 .contact-form__heading {
   display: block;
   font-size: 1.6rem;
   margin-bottom: 0.6rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .contact-form input {
@@ -85,11 +85,9 @@ h2 .contact-form__heading {
   transition: all 0.3s;
 }
 
-.btn-cta:hover {
+.btn-contact:hover {
   background-color: #fd7e14;
 }
-.btn-cta:active {
+.btn-contact:active {
   box-shadow: none;
 }
-
-
