@@ -2,7 +2,7 @@
   background-color: #fff4e6;
 }
 
-.home {
+.cards {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
