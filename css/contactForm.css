@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   overflow: hidden;
   background-color: #fff4e6;
   border-radius: 1rem;
@@ -10,6 +10,7 @@
 }
 
 .contact-form__content {
+  flex-shrink: 0;
   padding: 3rem;
   color: #45260a;
   margin: 0 auto;
@@ -18,7 +19,7 @@
 .contact-form__inputs {
   display: flex;
   gap: 6rem;
-  margin-bottom: 5rem;
+  margin: 2rem 0 5rem 0;
 }
 
 .contact-form__inputs-left {
