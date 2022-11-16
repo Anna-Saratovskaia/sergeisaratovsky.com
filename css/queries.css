@@ -1,4 +1,4 @@
-/* BELOW 1344px (small desktops)*/
+/* Below 1344px (Small Desktops)*/
 
 @media (max-width: 1344px) {
   .full-width-container {
@@ -34,6 +34,8 @@
   }
 }
 
+/* Below 1200px(Landscape Tablets)*/
+
 @media (max-width: 75em) {
   .full-width-container {
     max-width: 90rem;
@@ -44,13 +46,18 @@
   h2 {
     font-size: 3rem;
   }
+
+  h3 {
+    font-size: 3.6rem;
+  }
+
   .hero__photo {
     width: 36rem;
   }
   .page-header__logo-text {
     font-size: 1.6rem;
   }
-  .main-nav-list {
+  .page-header nav ul {
     font-size: 1.6rem;
     gap: 4rem;
   }

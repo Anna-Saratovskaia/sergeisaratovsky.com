@@ -29,3 +29,19 @@ for (let i = 0; i < closeModalBtns.length; i++) {
     }
   });
 }
+
+const removeFromArray = function (arr, nums) {
+  let newArr = [];
+  for (let el of arr) {
+    console.log(el);
+    for (let i = 0; i < nums.length; i++) {
+      console.log(i, nums.length);
+      if (el != nums[i]) {
+        newArr.push(el);
+        console.log(newArr);
+      }
+    }
+  }
+  return newArr;
+};
+console.log(removeFromArray([1, 2, 3, 4], [1, 2]));
