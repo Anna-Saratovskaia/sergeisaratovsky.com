@@ -1,29 +1,41 @@
 /* BELOW 1344px (small desktops)*/
 
-@media (max-width: 84em) {
-  .container {
+@media (max-width: 1344px) {
+  .full-width-container {
     max-width: 110rem;
   }
-  .btn-left {
-    transform: translate(158%, 110%);
-  }
-  .btn-right {
-    transform: translate(-152%, 110%);
-  }
 
-  h1 {
-    font-size: 8rem;
-  }
-  h2 {
-    font-size: 3rem;
-  }
   .page-header {
     padding: 0 6.6rem;
+  }
+  .hero__photo {
+    width: 40rem;
+  }
+
+  h1 img {
+    width: 40rem;
+    display: block;
+    margin-left: auto;
+  }
+  .hero__right--heading-text {
+    font-size: 3.8rem;
+  }
+  .hero__right--quote {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  .start-lessons:link,
+  .start-lessons:visited,
+  .contact-form__submit-btn span {
+    width: 18rem;
+    height: 6rem;
+    font-size: 2rem;
   }
 }
 
 @media (max-width: 75em) {
-  .container {
+  .full-width-container {
     max-width: 90rem;
   }
   h1 {
@@ -32,7 +44,7 @@
   h2 {
     font-size: 3rem;
   }
-  .hero-photo {
+  .hero__photo {
     width: 36rem;
   }
   .page-header__logo-text {
