@@ -62,3 +62,89 @@
     gap: 4rem;
   }
 }
+/* Below 944px(Tablets)*/
+
+@media (max-width: 59em) {
+  body {
+    font-size: 1.6rem;
+  }
+  .full-width-container {
+    max-width: 80rem;
+  }
+
+  .header__logo {
+    height: 1.2rem;
+  }
+
+  .page-header {
+    padding: 0 4.6rem;
+  }
+  .hero__photo {
+    width: 30rem;
+  }
+
+  .hero__right img {
+    width: 30rem;
+    display: block;
+    margin-left: auto;
+  }
+  .hero__right--heading-text {
+    font-size: 3rem;
+  }
+  .hero__right--quote {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  .hero cite {
+    font-size: 1.8rem;
+  }
+
+  .start-lessons:link,
+  .start-lessons:visited,
+  .contact-form__submit-btn span {
+    width: 14rem;
+    height: 5rem;
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 3.4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  h4 {
+    font-size: 2.2rem;
+    padding-top: 2.8rem;
+  }
+
+  .teaching-experience h4 {
+    padding-bottom: 1rem;
+  }
+
+  .teaching-icon {
+    width: 3.8rem;
+    height: 3.8rem;
+  }
+
+  .card ul {
+    padding: 1rem 2rem 2rem 1rem;
+  }
+  .card li {
+    background-size: 2.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .testimonials article {
+    padding: 2rem 5rem 1rem 5rem;
+    gap: 4.2rem;
+  }
+
+  .biography-box {
+    gap: 2rem;
+  }
+  #bio h3 {
+    padding-bottom: 2rem;
+  }
+}
