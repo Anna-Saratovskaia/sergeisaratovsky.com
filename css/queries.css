@@ -12,7 +12,7 @@
     width: 40rem;
   }
 
-  h1 img {
+  .hero__right img {
     width: 40rem;
     display: block;
     margin-left: auto;
