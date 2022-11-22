@@ -75,3 +75,16 @@
   color: #444;
   font-weight: 700;
 }
+
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.close-icon[name="menu-close"] {
+  display: none;
+}
