@@ -33,3 +33,15 @@ for (let i = 0; i < closeModalBtns.length; i++) {
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
+const navEl = document.querySelector(".page-header nav");
+
+const btnMobileNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".page-header");
+
+btnMobileNavEl.addEventListener("click", function () {
+  document.body.classList.toggle("nav-open");
+});
+
+navEl.addEventListener("click", function () {
+  document.body.classList.remove("nav-open");
+});
