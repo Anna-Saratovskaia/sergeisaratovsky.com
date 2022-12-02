@@ -73,6 +73,11 @@
   .page-header {
     position: relative;
   }
+
+  .page-header nav ul {
+    gap: 1rem;
+  }
+
   .full-width-container {
     max-width: 80rem;
   }
@@ -152,11 +157,22 @@
   #bio h3 {
     padding-bottom: 2rem;
   }
+}
+
+/* Below 720px(Smaller Tablets) */
+
+@media (max-width: 45em) {
   /*Mobile navigation*/
 
   .btn-mobile-nav {
+    position: fixed;
     display: flex;
-    z-index: 300;
+    top: 1rem;
+    right: 1rem;
+    z-index: 500;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid hsla(29, 100%, 58%, 0.5);
+    border-radius: 0.5rem;
   }
 
   .mobile-menu-icon {
@@ -165,7 +181,7 @@
   }
 
   nav {
-    position: absolute;
+    position: fixed;
     background-color: rgba(255, 255, 255, 0.961);
     top: 0;
     left: 0;
@@ -174,7 +190,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s;
     transform: translateX(100%);
     opacity: 0;
     pointer-events: none;
@@ -186,6 +202,11 @@
     visibility: visible;
     transform: translateX(0);
   }
+
+  .page-header {
+    height: 5rem;
+  }
+
   .page-header nav ul {
     flex-direction: column;
     gap: 4.8rem;
@@ -198,5 +219,119 @@
 
   .nav-open .mobile-menu-icon {
     display: none;
+  }
+
+  body {
+    font-size: 1.4rem;
+  }
+  .full-width-container {
+    max-width: 70rem;
+  }
+
+  .header__logo {
+    height: 1.2rem;
+  }
+
+  .page-header {
+    padding: 0 3rem;
+  }
+
+  .hero {
+    padding-bottom: 3rem;
+  }
+  .hero__photo {
+    width: 25rem;
+  }
+
+  .hero__right img {
+    width: 27rem;
+    display: block;
+    margin-left: auto;
+  }
+  .hero__right--heading-text {
+    font-size: 2.2rem;
+  }
+  .hero__right--quote {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .hero cite {
+    font-size: 1.6rem;
+  }
+
+  .start-lessons:link,
+  .start-lessons:visited,
+  .contact-form__submit-btn span {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  h4 {
+    font-size: 2.1rem;
+    padding-top: 2.6rem;
+  }
+
+  .teaching-experience h4 {
+    padding-bottom: 0.8rem;
+  }
+
+  .teaching-icon {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .card ul {
+    padding: 1rem 2rem 2rem 1rem;
+  }
+  .card li {
+    background-size: 2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .testimonials article {
+    padding: 2rem 5rem 1rem 5rem;
+    gap: 4.2rem;
+  }
+
+  .biography-box {
+    gap: 2rem;
+  }
+  #bio h3 {
+    padding-bottom: 2rem;
+  }
+
+  .testimonials img {
+    height: 10rem;
+  }
+
+  .contact-form__img img {
+    display: none;
+  }
+
+  .contact-form__img {
+    width: 0;
+  }
+
+  .contact-form__submit-btn span {
+    line-height: 4rem;
+  }
+
+  .page-footer {
+    padding: 2.2rem 3rem 2.2rem;
+    line-height: 2.2rem;
+    font-size: 1.2rem;
+    gap: 3rem;
+  }
+
+  .page-footer__copyright {
+    font-size: 1.2rem;
   }
 }
