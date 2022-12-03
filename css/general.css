@@ -108,6 +108,10 @@ ul {
   padding-bottom: 2rem;
 }
 
+.scroll-target {
+  scroll-margin-top: 9rem;
+}
+
 /* YOUTUBE LINKS */
 
 iframe[src^="https://www.youtube.com/"]
