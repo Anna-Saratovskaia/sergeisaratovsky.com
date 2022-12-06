@@ -54,6 +54,7 @@
   .hero__photo {
     width: 36rem;
   }
+
   .page-header__logo-text {
     font-size: 1.6rem;
   }
@@ -263,9 +264,9 @@
   .start-lessons:link,
   .start-lessons:visited,
   .contact-form__submit-btn span {
-    width: 12rem;
-    height: 4rem;
-    font-size: 1.4rem;
+    width: 13rem;
+    height: 5rem;
+    font-size: 1.7rem;
   }
 
   h3 {
@@ -333,5 +334,116 @@
 
   .page-footer__copyright {
     font-size: 1.2rem;
+  }
+}
+/* Below 400px (phones) */
+@media (max-width: 25em) {
+  .hero {
+    display: block;
+  }
+  .hero__photo {
+    display: none;
+  }
+  .wrap-hero-photo__mobile {
+    display: flex;
+    width: 30rem;
+  }
+  .hero-photo__mobile {
+    width: 30rem;
+  }
+  .hero__right {
+    text-align: center;
+  }
+  .hero__right--heading-text {
+    margin-bottom: 1.2rem;
+  }
+
+  .hero__right--quote {
+    display: none;
+  }
+
+  .hero__right--quote-mobile {
+    display: block;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .teaching-experience {
+    padding: 0 0 2rem 2rem;
+    margin-bottom: 3rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+  .teaching-icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    padding-right: 1rem;
+  }
+
+  .cards {
+    gap: 3rem;
+  }
+
+  .card {
+    min-width: 30rem;
+  }
+  .testimonials article {
+    display: none;
+  }
+
+  .testimonials__mobile article {
+    display: block;
+    padding: 1rem 1rem;
+  }
+
+  .testimonials__mobile img {
+    height: 7rem;
+  }
+  .testimonials h5 {
+    font-size: 1.4rem;
+    padding: 0;
+  }
+
+  .testimonials figure {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .tedtimonials figure div {
+    flex-basis: 70%;
+  }
+
+  .testimonials__mobile .testimonials__text {
+    display: none;
+  }
+
+  .testimonials__mobile h4 {
+    font-size: 1.5rem;
+  }
+
+  .biography-box {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  .full-text-container {
+    padding: 2rem;
+  }
+
+  .long-text p {
+    padding-bottom: 1rem;
+  }
+
+  .page-footer {
+    display: block;
+  }
+  .contact-form,
+  .contact-form__inputs {
+    display: block;
   }
 }

@@ -72,6 +72,10 @@ aside dd {
   margin-bottom: 2rem;
 }
 
+.testimonials__mobile article {
+  display: none;
+}
+
 .testimonials article:nth-of-type(odd) {
   background-color: #fff4e6;
   box-shadow: 3px 0 0.7rem rgba(0, 0, 0, 0.1);
