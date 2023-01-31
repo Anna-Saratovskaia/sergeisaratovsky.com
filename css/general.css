@@ -25,9 +25,8 @@ body.modal-open {
 
 .full-width-container {
   box-sizing: content-box;
-  max-width: 130rem;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 5%;
 }
 
 .start-lessons:link,
@@ -84,6 +83,9 @@ ul {
   line-height: 1.5;
 }
 
+.testimonials__text-mobile {
+  display: none;
+}
 /* HELPER/SETTING CLASS */
 
 .highlighted-sections {
@@ -110,6 +112,10 @@ ul {
 
 .scroll-target {
   scroll-margin-top: 9rem;
+}
+
+.active {
+  display: block;
 }
 
 /* YOUTUBE LINKS */

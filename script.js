@@ -45,3 +45,12 @@ btnMobileNavEl.addEventListener("click", function () {
 navEl.addEventListener("click", function () {
   document.body.classList.remove("nav-open");
 });
+
+let openTestimonials = document.querySelectorAll(".testimonials__mobile h4");
+let textTestimonials = document.querySelectorAll(".testimonials__text-mobile");
+
+for (let i = 0; i < openTestimonials.length; i++) {
+  openTestimonials[i].addEventListener("click", function () {
+    textTestimonials[i].classList.toggle("active");
+  });
+}

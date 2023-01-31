@@ -1,45 +1,14 @@
 /* Below 1344px (Small Desktops)*/
 
 @media (max-width: 1344px) {
-  .full-width-container {
-    max-width: 110rem;
-  }
-
   .page-header {
     padding: 0 6.6rem;
-  }
-  .hero__photo {
-    width: 40rem;
-  }
-
-  .hero__right img {
-    width: 40rem;
-    display: block;
-    margin-left: auto;
-  }
-  .hero__right--heading-text {
-    font-size: 3.8rem;
-  }
-  .hero__right--quote {
-    font-size: 2.2rem;
-    line-height: 3rem;
-  }
-
-  .start-lessons:link,
-  .start-lessons:visited,
-  .contact-form__submit-btn span {
-    width: 18rem;
-    height: 6rem;
-    font-size: 2rem;
   }
 }
 
 /* Below 1200px(Landscape Tablets)*/
 
 @media (max-width: 75em) {
-  .full-width-container {
-    max-width: 90rem;
-  }
   h1 {
     font-size: 7.2rem;
   }
@@ -51,16 +20,8 @@
     font-size: 3.6rem;
   }
 
-  .hero__photo {
-    width: 36rem;
-  }
-
   .page-header__logo-text {
     font-size: 1.6rem;
-  }
-  .page-header nav ul {
-    font-size: 1.6rem;
-    gap: 4rem;
   }
 }
 /*Below 944px(Tablets)*/
@@ -75,40 +36,12 @@
     position: relative;
   }
 
-  .page-header nav ul {
-    gap: 1rem;
-  }
-
-  .full-width-container {
-    max-width: 80rem;
-  }
-
   .header__logo {
     height: 1.2rem;
   }
 
   .page-header {
     padding: 0 4.6rem;
-  }
-  .hero__photo {
-    width: 30rem;
-  }
-
-  .hero__right img {
-    width: 30rem;
-    display: block;
-    margin-left: auto;
-  }
-  .hero__right--heading-text {
-    font-size: 3rem;
-  }
-  .hero__right--quote {
-    font-size: 1.8rem;
-    line-height: 3rem;
-  }
-
-  .hero cite {
-    font-size: 1.8rem;
   }
 
   .start-lessons:link,
@@ -225,9 +158,6 @@
   body {
     font-size: 1.4rem;
   }
-  .full-width-container {
-    max-width: 70rem;
-  }
 
   .header__logo {
     height: 1.2rem;
@@ -240,25 +170,14 @@
   .hero {
     padding-bottom: 3rem;
   }
-  .hero__photo {
-    width: 25rem;
-  }
 
-  .hero__right img {
-    width: 27rem;
-    display: block;
-    margin-left: auto;
+  .hero cite br {
+    display: none;
   }
-  .hero__right--heading-text {
-    font-size: 2.2rem;
-  }
+  .hero cite,
   .hero__right--quote {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-  }
-
-  .hero cite {
-    font-size: 1.6rem;
+    font-size: 2.5vw;
+    line-height: 4.2vw;
   }
 
   .start-lessons:link,
@@ -336,36 +255,35 @@
     font-size: 1.2rem;
   }
 }
-/* Below 400px (phones) */
-@media (max-width: 25em) {
+/* Below 608px (phones) */
+@media (max-width: 38em) {
   .hero {
     display: block;
   }
+  .hero__left {
+    margin: 0 auto;
+    width: 90%;
+  }
   .hero__photo {
-    display: none;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    object-position: 20% 30%;
   }
-  .wrap-hero-photo__mobile {
-    display: flex;
-    width: 30rem;
-  }
-  .hero-photo__mobile {
-    width: 30rem;
-  }
+
   .hero__right {
     text-align: center;
   }
+
+  .hero__right img {
+    margin: auto;
+  }
+  .cursive-name {
+    width: 75%;
+  }
+
   .hero__right--heading-text {
-    margin-bottom: 1.2rem;
-  }
-
-  .hero__right--quote {
-    display: none;
-  }
-
-  .hero__right--quote-mobile {
-    display: block;
-    line-height: 1.6;
-    margin-bottom: 1rem;
+    font-size: 5vw;
+    margin-bottom: 2.4rem;
   }
 
   .teaching-experience {
@@ -445,5 +363,10 @@
   .contact-form,
   .contact-form__inputs {
     display: block;
+  }
+  .hero cite,
+  .hero__right--quote {
+    font-size: 4vw;
+    line-height: 6vw;
   }
 }

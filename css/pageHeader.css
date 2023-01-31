@@ -35,13 +35,13 @@
 
 .page-header nav ul {
   display: flex;
-  gap: 5rem;
+  gap: 3vw;
   align-items: center;
   justify-content: center;
   list-style: none;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.6vw;
   transition: all 0.3s;
 }
 
